@@ -1,0 +1,32 @@
+{
+    "name": "Dozi Int'l",
+    "short_name": "Dozi Int'l",
+    "lang": "en-US",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#0c2b4b",
+    "description": "Daughters of Zion International",
+    "icons": [
+      {
+        "src": "assets/img/logo-1.png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "assets/img/logo-2.png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "assets/img/logo-3.png",
+        "sizes": "256x256"
+      },
+      {
+        "src": "assets/img/logo-4.png",
+        "sizes": "384x384"
+      },
+      {
+        "src": "assets/img/logo-5.png",
+        "sizes": "512x512"
+      }
+    ]
+  }
+  
