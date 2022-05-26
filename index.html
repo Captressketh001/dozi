@@ -57,9 +57,9 @@
           <li><a href="#about">About Us</a></li>
           <li><a href="#services">Programmes</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="inner-page.html">Blog</a></li>
+          <li><a href="https://daughtersofzionintl.org/blogs/">Blog</a></li>
           <li><a href="donation.html">Donate</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="https://daughtersofzionintl.org/blogs/contact-us/">Contact Us</a></li>
         </ul>
       </nav><!-- .main-nav -->
 
@@ -71,22 +71,22 @@
     <!-- <div class="container-fluid" data-aos="fade-up"> -->
       <div class="container-fluid" data-aso="zoom-in">
         <div class="row justify-content-center">
-          <div class="col-lg-12">
+          <div class="col-lg-6">
 
             <div class="owl-carousel testimonials-carousel">
 
               <div class="testimonial-item">
-                <img src="assets/img/Artboard 1-1.png" class="" alt="" style="height: 225px;">
+                <img src="assets/img/dozi.jpg" class="" alt="" style="height: 225px;">
                 
               </div>
               <div class="testimonial-item">
-                  <img src="assets/img/img-1.jpg" class="" alt="" style="height: 225px;">
+                  <img src="assets/img/Artboard 1-1.png" class="" alt="" style="height: 225px;">
                   
-                </div>
-                <div class="testimonial-item">
+              </div>
+                <!-- <div class="testimonial-item d-none">
                   <img src="assets/img/img-2.jpg" class="" alt="" style="height: 225px;">
                   
-                </div>
+                </div> -->
             </div>
 
           </div>
@@ -189,21 +189,25 @@
             <h4>Meet the Convener</h4>
             <p class="text-justify">
               Faithtestimony O. Akenroye is a daughter of Zion, prophetic teacher of God's word, an ordained pastor, a minstrel, counsellor, prolific writer, and mentor to several young ladies. 
-              She is on a rescue mission to see female folks fired up and become all that God has destined or ordained them to be, as they fully explore their God-given potentials and live up to their rightful places in Christ Jesus. 
+              She is on a rescue mission to see female folks fired up and become all that God has destined or ordained them to be, as they fully explore their God-given potentials and live up to their rightful places in Christ Jesus.<span id="dots">...</span> <span id="more">
+            
+            
+            <br><br>
+              She is also the Lead Mentor at Deborah's Crib Mentoring School, a transformation centre where women are groomed to recognize and harness their divine giftings for kingdom advancement, equipped and empowered for kingdom exploits, as well as taught to grow in their walk with God. <br><br>
+              She is the founder of Daughters of Zion Int’l, a non-denominational ministry with the vision of rescuing daughters from Babylon to Zion, raising women of relevance after God’s own Heart that will uphold zion's standards, reconciling daughters (young and old alike) to their heritage in God and reaching out to the female generation. She holds the ‘Unfading Beauty Series’ on this platform, every Wednesday. She also convenes several other life-changing meetings through this platform. Some of them include; the School of prayers, Campus Ladies Prayer Conference, School of Purpose, Sisters’ Time Out, Operation Rescue Them and many others that keep blessing lives over the years.
+            
+              <br><br>
               This is aimed at getting our daughters as corner stones polished after the similitude of a palace.She has been doing this over time via her writings and ministrations on various online and on-site platforms.
               She is committed to reinforcing accurate kingdom womanhood. She serves as the spiritual midwife @ Deborah's Crib, a mentoring hub where she nurtures, trains and watches over a community of ladies into  fulfilment of their God’s given destinies, through close monitoring and accountability system.
-            </p>
-            <p class="text-justify">
-              She is also the Lead Mentor at Deborah's Crib Mentoring School, a transformation centre where women are groomed to recognize and harness their divine giftings for kingdom advancement, equipped and empowered for kingdom exploits, as well as taught to grow in their walk with God. 
-              She is the founder of Daughters of Zion Int’l, a non-denominational ministry with the vision of rescuing daughters from Babylon to Zion, raising women of relevance after God’s own Heart that will uphold zion's standards, reconciling daughters (young and old alike) to their heritage in God and reaching out to the female generation. She holds the ‘Unfading Beauty Series’ on this platform, every Wednesday. She also convenes several other life-changing meetings through this platform. Some of them include; the School of prayers, Campus Ladies Prayer Conference, School of Purpose, Sisters’ Time Out, Operation Rescue Them and many others that keep blessing lives over the years.
-            </p>
-            <p class="text-justify">
+            
+              <br><br>
               She is an author of  life-changing books such as Jewel of Inestimable Value, Damsel Arise and The Woman after God's heart among others.
 
 
+              </span>
             </p>
+            <div><button onclick="myFunction()" id="myBtn" class="btn-get-started scrollto" title="Read More">Read more</button></div>
           </div>
-
         </div>
 
       </div>
@@ -726,7 +730,7 @@
 
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
+          <div class="col-lg-4 col-md-6 footer-newsletter d-none">
             <h4>Our Newsletter</h4>
             <p>Do you want to receive updates on our programmes and unfading beauty devotionals?</p>
             <form action="" method="post" data-netlify="true" name="subscribe">
@@ -786,6 +790,21 @@
         });
       });
     }
+    function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more"; 
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less"; 
+      moreText.style.display = "inline";
+    }
+  }
 </script>
 
 </body>

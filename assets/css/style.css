@@ -402,6 +402,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 50%;
   float: right;
 }
+#more {display: none;}
 
 @media (max-width: 991px) {
   #intro .intro-img {
@@ -458,7 +459,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#intro .intro-info .btn-get-started, #intro .intro-info .btn-services {
+#intro .intro-info .btn-get-started, #intro .intro-info .btn-services , .btn-get-started{
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 600;
@@ -471,7 +472,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#intro .intro-info .btn-get-started {
+#intro .intro-info .btn-get-started, .btn-get-started {
   background: #0c2b4b;
   border: 2px solid #0c2b4b;
   color: #fff;
